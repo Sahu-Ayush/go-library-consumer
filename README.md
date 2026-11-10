@@ -1,0 +1,1 @@
+Independent application that consumes libraries from GitHub.
