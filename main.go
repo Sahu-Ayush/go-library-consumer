@@ -17,6 +17,7 @@ func main() {
 	fmt.Println("------------------")
 	fmt.Println("Hostname:", hostname)
 	fmt.Println("Operating System:", systeminfo.GetOS())
+	fmt.Println("System Summary:", systeminfo.GetSystemSummary())
 	fmt.Println("Architecture:", systeminfo.GetArchitecture())
 	fmt.Println("CPU Count:", systeminfo.GetCPUCount())
 	fmt.Println("Go Version:", systeminfo.GetGoVersion())
